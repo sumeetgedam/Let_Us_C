@@ -80,8 +80,8 @@ doesn’t change whereas a variable is an entity that may change.
 - A variable name is any combination of 1 to 31 alphabets, digits or underscores
 - The first character in the variable name must be an alphabet or underscore. 
 - No commas or blanks allowed
-- No special symbol other than underscore
-- C ompiler distinguishes Primary and Secondary variable by the type with which its defined
+- No special symbol other than underscore can be used
+- Compiler distinguishes Primary and Secondary variable by the type with which its defined
 - Create meaningful variable names
 
 ### C Keywords
@@ -115,3 +115,138 @@ doesn’t change whereas a variable is an entity that may change.
 
 
 ## Compilation and Execution
+
+- The program typed needs to be converted to machine language(0s and 1s)
+- This work is done by compiler
+- On compiling its machine equivalent is stored as an [EXE file](./Program_to_Calculate_Simple_Interest.exe) on the disk
+- This file called as an executable file can be copied to any other machine and can be executed there without being required to recomplie it.
+- In fact ther machine need not even have a compiler to be able to execute the file.
+
+## Receiving Input
+
+- In earlier program we had values of p, n, r set already
+- Its better to make general enough to work for any set of values
+- `scanf()` helps us get values from user / keyboard.
+- [Simple Interest with Input](./Simple_Interest_with_Input.c)
+- the ampersand (&) before the variables in the scanf() function is a must. & is an ‘Address of’ operator.
+- It gives the location number used by the variable in memory. 
+- When we say &a, we are telling scanf( ) at which memory location should it store the value supplied by the user from the keyboard. 
+
+## C Instructions
+
+- Types of Instructions
+    - Type Declaration Instructions
+        - To declare variables
+    - Arithmetic Instruction
+        - To perform aeritmetic operations on variables
+    - Control Instruction
+        - Control sequence of execution of various statements
+
+### Type Declaration Instruction
+
+- This instruction is used to declare the type of variables being used
+in the program
+- The order in which we define the variables is sometimes
+important sometimes not.
+    - int i = 10, j = 25 ; is same as int j = 25, j = 10 ; 
+    - However, <br>
+        float a = 1.5, b = a + 3.1 ; is alright, but<br>
+        float b = a + 3.1, a = 1.5 ; is not. <br>
+        This is because here we are trying to use a even before defining it
+    - The following statements would work <br>
+        int a, b, c, d ;<br>
+        a = b = c = 10 ;<br>
+        However, the following statement would not work<br>
+        int a = b = c = d = 10 ;<br>
+        Once again we are trying to use b (to assign to a) before
+        defining it. 
+
+### Arithmetic Instruction
+
+- A C arithmetic instruction consists of a variable name on the left
+hand side of = and variable names & constants on the right hand
+side of =.
+- Could be of 3 Types
+    - Integer mode arithmetic statement
+        - all operands are integer variables or integer constants
+        - int i, king, issac, noteit;<br>
+            i = i + 1 <br>
+            king = issac * 234 + noteit - 7689
+
+    - Real mode arithmetic statement
+        - all operands are either real constants or real variables
+        - float qbee, antink, si, prin, anoy, roi; <br>
+            qbee = antink + 23.123 / 4.5 * 0.3442; <br>
+            si = prin * anoy * roi / 100.0
+    - Mixed mode arithmetic statement
+        - some oprands are integers ans some are real
+        - float si, prin, anoy, roi, avg; <br>
+            int a, b, c, num; <br>
+            si = prin * anoy * roi / 100.0; <br>
+            avg (a + b + c + num) / 4;
+- Arithmetic operations can be performed on ints, floats and
+chars
+- the addition is performed on the ASCII values of the characters and not on characters
+themselves
+
+
+### Integer and Float Conversions
+
+- An arithmetic operation between an integer and integer
+always yields an integer result
+- An operation between a real and real always yields a real
+result
+- An operation between an integer and real always yields a real
+result. In this operation the integer is first promoted to a real
+and then the operation is performed. Hence the result is real.
+- ![Integer_and_Float_Conversions](./Integer_and_Float_Conversions.png)
+- When type of variable is not same on left and right of =, then value of expression is promoted or demoted as per left variable
+    - int i; <br>
+        float b;<br>
+        i = 3.5; <br>
+        b = 30;<br>
+        here thr float value (3.5) will be demoted to an int (3) and int value (30) will be promoted to float value(30.000000).
+
+
+### Heirarchy of Operations
+
+- The priority or precedence in which the operations in an arithmetic statement are performed is called the hierarchy of
+operations
+- ![Heirarchy_of_Operations](./Heirarchy_of_Operations.png)
+- If there are more than onde set of parentheses then innermost executes first
+
+### Associativity of Operators 
+
+- When an expression contains two operators of equal priority the tie between them is settled using the associativity of the operators.
+- Two types
+    - Left to Right
+        - Left operand must be unambigous
+        - Unambiguous - must not involve in evaluation of other sub-expression
+    - Right to Left
+        - Right operand must be unambiguous
+
+## Control Instructions in C
+
+- Control instructions determine the ‘flow of control’ in a program
+- Types include : 
+    - Sequence Control Instruction
+        - ensures instructions are executed in same order in which they appear
+    - Selection or Decision Control Instruction
+        - Helps take a decision as to which instruction is to be executed next
+    - Repetition or loop Control Instruction
+        - Helps exeute a group of statements repeatedly
+    - Case Control Instruction
+
+## Exercise
+
+- ![question_1](./question_1.png)
+    - basic-hra, #MEAN, 422, group., population in 2006 , over time, queue., team’svictory, Plot # 3, 2015_DDay
+    - [refer](#rules-for-constructing-variable-names)
+
+- [B]
+    - (a) keyword used as variable
+    - (b) OK
+    - (c) OK
+    - (d) left side of = should only have one variable
+    - (e) parentheses imbalence
+    - (f) 
