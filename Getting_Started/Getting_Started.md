@@ -245,8 +245,112 @@ operations
 
 - [B]
     - (a) keyword used as variable
-    - (b) OK
+    - (b) String used in char
     - (c) OK
     - (d) left side of = should only have one variable
     - (e) parentheses imbalence
-    - (f) 
+    - (f) blanks in variable names
+    - (g) OK
+    - (h) C does not have exponentiation operator (** is invalid [refer](#arithmetic-instruction))
+    - (i) C does not have exponentiation operator (^ is invalid [refer](#arithmetic-instruction))
+    - (j) OK
+    - (k) using b before assigning
+    - (l) OK
+    - (m) String used in char
+
+- [C]
+    - (a) g = big / 2 + big * 4 / big - big + abc / 3 ; (abc = 2.5, big = 2, assume g to be a float)
+        | State| Operation |
+        | :------------ | :-----------: |
+        | g = 2 / 2 + 2 * 4 / 2 - 2 + 2.5 / 3; | |
+        | g = 1 + 2 * 4 / 2 - 2 + 2.5 / 3; | operation / |
+        | g = 1 + 8 / 2 - 2 + 2.5 / 3; | operation * |
+        | g = 1 + 4 - 2 + 2.5 / 3.0; | operation /  |
+        | g = 1 + 4 - 2 + 0.0; | operation / |
+        | g = 5 - 2 + 0.0; | operation + |
+        | g = 3 + 0.0; | operation - |
+        | g = 3; | operation + |
+        | g = 3.0; | g is float |
+    
+    - (b) on = ink * act / 2 + 3 / 2 * act + 2 + tig ; (ink = 4, act = 1, tig = 3.2, assume on to be an int)
+        | State | Operation |
+        | :----- | :-----: |
+        | on = 4 * 1 / 2 + 3 / 2 * 1 + 2 + 3.2 ; | |
+        | on = 5 / 2 + 3 / 2 * 1 + 2 + 3.2 ; | operation *|
+        | on = 2 + 3 / 2 * 1 + 2 + 3.2 ; | operation /|
+        | on = 2 + 1 * 1 + 2 + 3.2 ; | operation /|
+        | on = 2 + 1 + 2 + 3.2 ; | operation *|
+        | on = 3 + 2 + 3.2 ; | operation +|
+        | on = 5 + 3.2 ; | operation +|
+        | on = 8.2 ; | operation +|
+        | on = 8 ; | on is int|
+
+    - (c) s = qui * add / 4 - 6 / 2 + 2 / 3 * 6 / god ;(qui = 4, add = 2, god = 2, assume s to be an int) 
+        | State | Operation | 
+        | :----- | :----: |
+        | s = 4 * 2 / 4 - 6 / 2 + 2 / 3 * 6 / 2 ; | |
+        | s = 8 / 4 - 6 / 2 + 2 / 3 * 6 / 2 ; | operation *|
+        | s = 2 - 6 / 2 + 2 / 3 * 6 / 2 ; | operation /|
+        | s = 2 - 3 + 2 / 3 * 6 / 2 ; | operation /|
+        | s = 2 - 3 + 0 * 6 / 2 ; | operation /|
+        | s = 2 - 3 + 0 / 2 ; | operation *|
+        | s = 2 - 3 + 0 ; | operation /|
+        | s = -1 + 0 ; | operation -|
+        | s = -1 ; | operation +|
+
+    - (d) s = 1 / 3 * a / 4 - 6 / 2 + 2 / 3 * 6 / g ; (a = 4, g = 3, assume s to be an int) 
+        | State | Operation |
+        | :----- | :-------: |
+        | s = 1 / 3 * 4 / 4 - 6 / 2 + 2 / 3 * 6 / 3 ; | | 
+        | s = 0 * 4 / 4 - 6 / 2 + 2 / 3 * 6 / 3 ; | operation /| 
+        | s = 0 / 4 - 6 / 2 + 2 / 3 * 6 / 3 ; | operation *| 
+        | s = 0 - 6 / 2 + 2 / 3 * 6 / 3 ; | operation /| 
+        | s = 0 - 3 + 2 / 3 * 6 / 3 ; | operation /|
+        | s = 0 - 3 + 1 * 6 / 3 ; | operation /|
+        | s = 0 - 3 + 6 / 3 ; | operation *|
+        | s = 0 - 3 + 2 ; | operation /|
+        | s = - 3 + 2 ; | operation -|
+        | s = - 1 ; | operation +|
+
+- [D]
+    | Operator | Left | Right | Remark |
+    |  :----: | :-----: | :----: | :------ |
+    | / | 10 | 5 or 5 / 2 / 1 | Left operand is unambiguous, Right is not |
+    | * | 5 | 4 or 4 / 3 | Left operand is unambiguous, Right is not | 
+    | = | a | b or b = c = 3 + 4 | Left operand is unambiguous, Right is not |
+
+- [E]
+    - (a) 
+        - Z = ((8.8 * (a + b) * 2) / c - (0.5 + 2 * a) / ( q + r )) / ((a + b) * (1/m))
+    
+    - (b) 
+         - X = (-b + ( b * b) + 2 * 4 * a * c) / (2 * a)
+
+    - (c) 
+        - R = (2*v + (6.22 * (c + d))) / ( g + v )
+    
+    - (d)
+        - A = (((7.7 * b) ((x * y) + a))/ c = 0.8 + (2 * b)) / ((x + a) * ( a / y))
+
+    
+- [F]
+    - (a) 
+        - 0 2 0.000000 2.000000
+    
+    - (b)
+        - a = -6 b = 0
+    
+    - (c)
+        - invalid operands to binary % (have 'float' and 'float')
+
+    - (d) 
+        - nn   <br><br> 
+          &nbsp; nn     
+            nn /n/n nn/n
+        
+    - (e) 
+        - Enter values of a and b5 10   
+            a = 5 b = 10
+
+    - (f)
+        - Enter values of p and q2 3
