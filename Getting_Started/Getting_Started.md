@@ -354,3 +354,61 @@ operations
 
     - (f)
         - Enter values of p and q2 3
+
+- [G]
+    - (a) C language has been developed by 
+        - (2) Dennis Ritchie
+    - (b) C can be used on
+        - (4) All the above
+    - (c) C programs are converted into machine language with the help of
+        - (2) A compiler
+    - (d) The real constant in C can be expressed in which of the following forms
+        - (4) Both Exponential forms
+    - (e) A character variable can at a time store
+        - (1) 1 character
+    - (f) The statement char ch = ‘Z’ would store in ch
+        - (1) the character Z
+    - (g) Which of the following is NOT a character constant
+        - (4) All the above
+    - (h) The maximum value that an integer constant can have is
+        - (2) 32767
+    - (i) A C variable cannot start with
+        - (4) Both (2) and (3) above
+    - (j) Which of the following statement is wrong 
+        - (4) 3 + a = b
+    - (k) Which of the following shows the correct hierarchy of arithmetic operators in C
+        - (4) / or *, - or +
+    - (l) In b = 6.6 / a + 2 * n ; which operation will be performed first?
+        - (1) 6.6 / a
+    - (m) Which of the following is allowed in a C Arithmetic instruction
+        - (3) ()
+    - (n) Which of the following statements is false 
+        - (1) Each new C instruction has to be written on a separate line 
+    - (o) If a is an integer variable, a = 5 / 2 ; will return a value
+        - (3) 2
+    - (p) The expression, a = 7 / 22 * ( 3.14 + 2 ) * 3 / 5 ; evaluates to
+        - (4) 0
+    - (q) The expression, a = 30 * 1000 + 2768 ; evaluates to
+        - (1) 32768
+    - (r) The expression x = 4 + 2 % - 8 evaluates to
+        - (2) 6
+    - (s) Hierarchy decides which operator 
+        - (2) is used first
+    - (t) An integer constant in C must have: 
+        - (1) At least one digit
+    - (u) A character variable can never store more than 
+        - (4) 1 character 
+    - (v) In C a variable cannot contain
+        - (4) All the above
+    - (w) Which of the following is FALSE in C
+        - (1) Keywords can be used as variable names 
+    - (x) In C, Arithmetic instruction cannot contain 
+        - (4) constants on left side of = 
+    - (y) Which of the following shows the correct hierarchy of arithmetic operations in C 
+        - (4) * / + - 
+    - (z) What will be the value of d if d is a float after the operation d = 2 / 7.0? 
+        - (2) 0.285714
+
+- [H] Write C programs for the following:
+    - (a) Ramesh’s basic salary is input through the keyboard. His dearness allowance is 40% of basic salary, and house rent allowance is 20% of basic salary. Write a  program to calculate his gross salary.
+        - [C program](./Ramesh_gross_salary.c)
