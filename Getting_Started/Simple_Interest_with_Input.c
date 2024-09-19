@@ -1,7 +1,7 @@
 /* 
 Calculation of simple interest , taking Inputs frmo users
 Author: gedam 
-Created : 14-09-2024 
+Created : 17-09-2024 
 */
 #include<stdio.h>
 main()
