@@ -21,7 +21,7 @@ sentences and sentences are combined to form paragraphs.
 - A character denotes any alphabet, digit or special symbol used to
 represent information.
 
-- ![C_Character_Set](C_Character_Set.png)
+- ![C_Character_Set](./assets/C_Character_Set.png)
 
 ### Constants , Variables and Keywords
 
@@ -90,7 +90,7 @@ doesn’t change whereas a variable is an entity that may change.
 - Keywords cannot be used as variable name ( even if compiler allows safer not to mix up)
 - Keywrods also known as Reversed words
 - 32 keywords in C
-- ![Keywords_in_C](Keywords_in_C.png)
+- ![Keywords_in_C](./assets/Keywords_in_C.png)
 - some other keywords are provided by Vendors like Microsoft, Borland but ANSI has suggested to put two underscores before them to identify them.
 
 
@@ -199,7 +199,7 @@ result
 - An operation between an integer and real always yields a real
 result. In this operation the integer is first promoted to a real
 and then the operation is performed. Hence the result is real.
-- ![Integer_and_Float_Conversions](./Integer_and_Float_Conversions.png)
+- ![Integer_and_Float_Conversions](./assets/Integer_and_Float_Conversions.png)
 - When type of variable is not same on left and right of =, then value of expression is promoted or demoted as per left variable
     - int i; <br>
         float b;<br>
@@ -212,7 +212,7 @@ and then the operation is performed. Hence the result is real.
 
 - The priority or precedence in which the operations in an arithmetic statement are performed is called the hierarchy of
 operations
-- ![Heirarchy_of_Operations](./Heirarchy_of_Operations.png)
+- ![Heirarchy_of_Operations](./assets/Heirarchy_of_Operations.png)
 - If there are more than onde set of parentheses then innermost executes first
 
 ### Associativity of Operators 
@@ -239,7 +239,7 @@ operations
 
 ## Exercise
 
-- ![question_1](./question_1.png)
+- ![question_1](./assets/question_1.png)
     - basic-hra, #MEAN, 422, group., population in 2006 , over time, queue., team’svictory, Plot # 3, 2015_DDay
     - [refer](#rules-for-constructing-variable-names)
 
