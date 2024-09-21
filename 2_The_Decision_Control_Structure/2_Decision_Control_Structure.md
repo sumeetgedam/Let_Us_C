@@ -245,7 +245,7 @@ big = ( a > b ? ( a > c ? 3 : 4) : ( b > c ? 6 : 8 ));
 a > b ? g = a : g = b ;
 ```
 - This will give you an error ‘Lvalue Required’. The error can
-be overcome by enclosing the statement in the : part within a
+be overcome by enclosing the statement in the <i><b>:</b></i> part within a
 pair of parenthesis. This is shown below:
 ```
 a > b ? g = a : ( g = b ) ;
@@ -254,3 +254,77 @@ a > b ? g = a : ( g = b ) ;
 assigned to the result of the expression to the left of second =.
 Hence it reports an error
  ## Exercise
+
+- [A]
+    - (a)
+        - 0 200
+    - (b)
+        - 300 200
+    - (c)
+        - 10 20
+    - (d)
+        - 3<br>
+        5
+    - (e)
+        - x and y are equal
+    - (f)
+        - x = 10 y = 10 z = 0
+    - (g)
+        - 0 50 0
+    - (h)
+        - C is WOW
+    - (i)
+        - a = 15 b = 15 c = 0
+    - (j)
+        - 1 20 1
+
+- [B]
+    - (a)
+        - comparision operator is wrongly, but won't throw error
+    - (b)
+        - no error
+    - (c)
+        - no error
+    - (d)
+        - no such keyword `then`
+    - (e)
+        - expected parenthesis for condition of if
+    - (f)
+        - wrongly used comparator operator ,will throw `lvalue required as left operand of assignment`
+    - (g)
+        - x is less than y
+    - (h)
+        - `then` undeclared variable / keyword.
+    - (i)
+        - `else` without a previous `if`
+
+- [C]
+    - (a) If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred. 
+        - [profitOrLoss](./profitOrLoss.c)
+    - (b) Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number
+        - [oddOrEven](./oddOrEven.c)
+    - (c) Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not.
+        - [leapYearOrNot](./leapYearOrNot.c)
+    - (d) According to the Gregorian calendar, it was Monday on the date 01/01/1900. If any year is input through the keyboard write a program to find out what is the day on 1st January of this year
+        - [gregorianCalendar](./gregorianCalendar.c)
+    - (e) A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not.
+        - [reversedNumber](./reversedNumber.c)
+    - (f) If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three
+        - [youngest](./youngest.c)
+    - (g) Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees. 
+        - [validTriangle](./validTriangle.c)
+    - (h) Find the absolute value of a number entered through the keyboard.
+        - [absoluteValue](./absoluteValue.c)
+    - (i) Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter. For example, the area of the rectangle with length = 5 and breadth = 4 is greater than its perimeter.
+        - [rectangle](./rectangle.c)
+    - (j) Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line.
+        - [straightLine](./straightLine.c)
+    - (k) Given the coordinates (x, y) of a center of a circle and it’s radius, write a program which will determine whether a point lies inside the circle, on the circle or outside the circle.
+        - [circle](./circle.c)
+    - (l) Given a point (x, y), write a program to find out if it lies on the x-axis, y-axis or at the origin, viz. (0, 0).
+        - [axis](./axis.c)
+
+- Logical Operators
+If a = 10, b = 12, c = 0, find the values of the expressions in
+the following table: 
+
