@@ -1,4 +1,4 @@
-# Decision Control Structure
+# The Decision Control Structure
 
 - Three major decision making instrucitons in C :
     - if
