@@ -258,6 +258,7 @@ Hence it reports an error
 - [A]
     - (a)
         - 0 200
+
     - (b)
         - 300 200
     - (c)
@@ -281,6 +282,7 @@ Hence it reports an error
 - [B]
     - (a)
         - comparision operator is wrongly, but won't throw error
+
     - (b)
         - no error
     - (c)
@@ -301,30 +303,140 @@ Hence it reports an error
 - [C]
     - (a) If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred. 
         - [profitOrLoss](./profitOrLoss.c)
+    
     - (b) Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number
         - [oddOrEven](./oddOrEven.c)
+
     - (c) Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not.
         - [leapYearOrNot](./leapYearOrNot.c)
+
     - (d) According to the Gregorian calendar, it was Monday on the date 01/01/1900. If any year is input through the keyboard write a program to find out what is the day on 1st January of this year
         - [gregorianCalendar](./gregorianCalendar.c)
+
     - (e) A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not.
         - [reversedNumber](./reversedNumber.c)
+
     - (f) If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three
         - [youngest](./youngest.c)
+
     - (g) Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees. 
         - [validTriangle](./validTriangle.c)
+
     - (h) Find the absolute value of a number entered through the keyboard.
         - [absoluteValue](./absoluteValue.c)
+
     - (i) Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter. For example, the area of the rectangle with length = 5 and breadth = 4 is greater than its perimeter.
         - [rectangle](./rectangle.c)
+
     - (j) Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line.
         - [straightLine](./straightLine.c)
+
     - (k) Given the coordinates (x, y) of a center of a circle and it’s radius, write a program which will determine whether a point lies inside the circle, on the circle or outside the circle.
         - [circle](./circle.c)
+
     - (l) Given a point (x, y), write a program to find out if it lies on the x-axis, y-axis or at the origin, viz. (0, 0).
         - [axis](./axis.c)
+
+<br>
 
 - Logical Operators
 If a = 10, b = 12, c = 0, find the values of the expressions in
 the following table: 
 
+|Expression|Value|
+|:-----|:------:|
+|a != 6 && b > 5|1|
+|a == 9 or b < 3|0|
+|! ( a < 10 ) |1|
+|! ( a > 5 && c ) |1|
+| 5 && c != 8 or !c |1|
+
+<br>
+
+- [D] [refer](#hierarchy-of-operators-revisited)
+    - (a)
+        - Dean of students affairs
+
+    - (b)
+        - Let us C
+
+    - (c)
+        - w = 1 x = 0 y = 1 z = 1 
+
+    - (d)
+        - y = 1 z = 1
+
+    - (e)
+        - Bennarivo
+
+    - (f)
+        - 40
+
+    - (g)
+        - Definitely C !
+
+    - (h)
+        - 1 1
+
+    - (i)
+        - z is big
+
+    - (j)
+        - -1 1
+
+    - (k)
+        - k = 0
+
+
+- [E]
+    - (a)
+        - no errors
+
+    - (b)
+        - single & is used which has different meaning than logical AND
+    - (c)
+        - no such keyword or ( only logical OR || is available in C)
+    - (d)
+        - next if statement with completing the first one / if in between condition
+    - (e)
+        - and is not  keyword in C , only logical AND (&&) is allowed
+    - (f)
+        - single & is used which has different meaning than logical AND
+    - (g)
+        - else without a if, if is already closed as semicolon is written after the condition
+    - (h)
+        - no errors
+
+- [F]
+    - (a) Any year is entered through the keyboard, write a program to determine whether the year is leap or not. Use the logical operators && and ||. 
+        - [leapYearOperator](./leapYearOperator.c)
+    
+    - (b)Any character is entered through the keyboard, write a program to determine whether the character entered is a capital letter, a small case letter, a digit or a special symbol. 
+        - [theCharacter](./theCharacter.c)
+
+    - (c) An Insurance company follows following rules to calculate premium.<br>
+    (1) If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a city and is a male then the premium is Rs. 4 per thousand and his policy amount cannot exceed Rs. 2 lakhs.<br>
+    (2) If a person satisfies all the above conditions except that the sex is female then the premium is Rs. 3 per thousand and her policy amount cannot exceed Rs. 1 lakh.<br>
+    (3) If a person’s health is poor and the person is between 25 and 35 years of age and lives in a village and is a male then the premium is Rs. 6 per thousand and his policy cannot exceed Rs. 10,000.<br>
+    (4) In all other cases the person is not insured.<br>
+    Write a program to output whether the person should be insured or not, his/her premium rate and maximum amount for which he/she can be insured. 
+        - [insuredOrNot](./insuredOrNot.c)
+
+    - (d) A certain grade of steel is graded according to the following conditions: <br>
+    (i) Hardness must be greater than 50<br>
+    (ii) Carbon content must be less than 0.7<br>
+    (iii) Tensile strength must be greater than 5600<br>
+    The grades are as follows:<br>
+    Grade is 10 if all three conditions are met<br>
+    Grade is 9 if conditions (i) and (ii) are met<br>
+    Grade is 8 if conditions (ii) and (iii) are met<br>
+    Grade is 7 if conditions (i) and (iii) are met<br>
+    Grade is 6 if only one condition is met<br>
+    Grade is 5 if none of the conditions are met<br>
+    Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel.
+        - [gradepfSteel](./gradeOfSteel.c)
+    
+    - (e) A library charges a fine for every book returned late. For first 5 days the fine is 50 paise, for 6-10 days fine is one rupee and above 10 days fine is 5 rupees. If you return the book after 30 days your membership will be cancelled. Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate message. 
+        - [libraryFine](./libraryFine.c)
+    
+    - (f) If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is valid or not. The triangle is valid if the sum of two sides is greater than the largest of the three sides. 
