@@ -42,7 +42,7 @@ if(expression)
 
 - if multiple statements are to be executed then they must be placed within pair of braces
 - Example : The current year and the year in which the employee joined the organization are entered through the keyboard. If the number of years for which the employee has served the organization is greater than 3 then a bonus of Rs. 2500/- is given to the employee. If the years of service are not greater than 3, then the program should do nothing.
-    - [C Program](./Bonus.c) <br><br>
+    - [C Program](./code/Bonus.c) <br><br>
     ![multipleIfStatementFlowchart](./assets/multipleIfStatementFlowchart.png)
 
 ## The <i><b>if-else</b></i> Statement
@@ -147,11 +147,11 @@ Percentage between 50 and 59 - Second division<br>
 Percentage between 40 and 49 - Third division<br>
 Percentage less than 40 - Fail<br>
 Write a program to calculate the division obtained by the student.
-    - [C Program (Method-I)](./divisionMethodOne.c)
+    - [C Program (Method-I)](./code/divisionMethodOne.c)
     - As the number of conditions go on increasing the level of indentation also goes on increasing.
     - Care needs to be exercised to match the corresponding <i><b>if</b></i>s and <i><b>else</b></i>s
     - Care needs to be exercised to match the corresponding pair of braces
-    - [C Program (Method-II)](./divisionMethodTwo.c)
+    - [C Program (Method-II)](./code/divisionMethodTwo.c)
 
 ### The <i><b>else if</b></i> Clause
 
@@ -261,21 +261,29 @@ Hence it reports an error
 
     - (b)
         - 300 200
+
     - (c)
         - 10 20
+
     - (d)
         - 3<br>
         5
+
     - (e)
         - x and y are equal
+
     - (f)
         - x = 10 y = 10 z = 0
+
     - (g)
         - 0 50 0
+
     - (h)
         - C is WOW
+
     - (i)
         - a = 15 b = 15 c = 0
+
     - (j)
         - 1 20 1
 
@@ -285,57 +293,64 @@ Hence it reports an error
 
     - (b)
         - no error
+
     - (c)
         - no error
+
     - (d)
         - no such keyword `then`
+
     - (e)
         - expected parenthesis for condition of if
+
     - (f)
         - wrongly used comparator operator ,will throw `lvalue required as left operand of assignment`
+
     - (g)
         - x is less than y
+
     - (h)
         - `then` undeclared variable / keyword.
+
     - (i)
         - `else` without a previous `if`
 
 - [C]
     - (a) If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred. 
-        - [profitOrLoss](./profitOrLoss.c)
+        - [profitOrLoss](./code/profitOrLoss.c)
     
     - (b) Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number
-        - [oddOrEven](./oddOrEven.c)
+        - [oddOrEven](./code/oddOrEven.c)
 
     - (c) Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not.
-        - [leapYearOrNot](./leapYearOrNot.c)
+        - [leapYearOrNot](./code/leapYearOrNot.c)
 
     - (d) According to the Gregorian calendar, it was Monday on the date 01/01/1900. If any year is input through the keyboard write a program to find out what is the day on 1st January of this year
-        - [gregorianCalendar](./gregorianCalendar.c)
+        - [gregorianCalendar](./code/gregorianCalendar.c)
 
     - (e) A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not.
-        - [reversedNumber](./reversedNumber.c)
+        - [reversedNumber](./code/reversedNumber.c)
 
     - (f) If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three
-        - [youngest](./youngest.c)
+        - [youngest](./code/youngest.c)
 
     - (g) Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees. 
-        - [validTriangle](./validTriangle.c)
+        - [validTriangle](./code/validTriangle.c)
 
     - (h) Find the absolute value of a number entered through the keyboard.
-        - [absoluteValue](./absoluteValue.c)
+        - [absoluteValue](./code/absoluteValue.c)
 
     - (i) Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter. For example, the area of the rectangle with length = 5 and breadth = 4 is greater than its perimeter.
-        - [rectangle](./rectangle.c)
+        - [rectangle](./code/rectangle.c)
 
     - (j) Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line.
-        - [straightLine](./straightLine.c)
+        - [straightLine](./code/straightLine.c)
 
     - (k) Given the coordinates (x, y) of a center of a circle and it’s radius, write a program which will determine whether a point lies inside the circle, on the circle or outside the circle.
-        - [circle](./circle.c)
+        - [circle](./code/circle.c)
 
     - (l) Given a point (x, y), write a program to find out if it lies on the x-axis, y-axis or at the origin, viz. (0, 0).
-        - [axis](./axis.c)
+        - [axis](./code/axis.c)
 
 <br>
 
@@ -394,25 +409,31 @@ the following table:
 
     - (b)
         - single & is used which has different meaning than logical AND
+
     - (c)
         - no such keyword or ( only logical OR || is available in C)
+
     - (d)
         - next if statement with completing the first one / if in between condition
+
     - (e)
         - and is not  keyword in C , only logical AND (&&) is allowed
+
     - (f)
         - single & is used which has different meaning than logical AND
+
     - (g)
         - else without a if, if is already closed as semicolon is written after the condition
+        
     - (h)
         - no errors
 
 - [F]
     - (a) Any year is entered through the keyboard, write a program to determine whether the year is leap or not. Use the logical operators && and ||. 
-        - [leapYearOperator](./leapYearOperator.c)
+        - [leapYearOperator](./code/leapYearOperator.c)
     
     - (b)Any character is entered through the keyboard, write a program to determine whether the character entered is a capital letter, a small case letter, a digit or a special symbol. 
-        - [theCharacter](./theCharacter.c)
+        - [theCharacter](./code/theCharacter.c)
 
     - (c) An Insurance company follows following rules to calculate premium.<br>
     (1) If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a city and is a male then the premium is Rs. 4 per thousand and his policy amount cannot exceed Rs. 2 lakhs.<br>
@@ -420,7 +441,7 @@ the following table:
     (3) If a person’s health is poor and the person is between 25 and 35 years of age and lives in a village and is a male then the premium is Rs. 6 per thousand and his policy cannot exceed Rs. 10,000.<br>
     (4) In all other cases the person is not insured.<br>
     Write a program to output whether the person should be insured or not, his/her premium rate and maximum amount for which he/she can be insured. 
-        - [insuredOrNot](./insuredOrNot.c)
+        - [insuredOrNot](./code/insuredOrNot.c)
 
     - (d) A certain grade of steel is graded according to the following conditions: <br>
     (i) Hardness must be greater than 50<br>
@@ -434,9 +455,35 @@ the following table:
     Grade is 6 if only one condition is met<br>
     Grade is 5 if none of the conditions are met<br>
     Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel.
-        - [gradepfSteel](./gradeOfSteel.c)
+        - [gradepfSteel](./code/gradeOfSteel.c)
     
     - (e) A library charges a fine for every book returned late. For first 5 days the fine is 50 paise, for 6-10 days fine is one rupee and above 10 days fine is 5 rupees. If you return the book after 30 days your membership will be cancelled. Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate message. 
-        - [libraryFine](./libraryFine.c)
+        - [libraryFine](./code/libraryFine.c)
     
     - (f) If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is valid or not. The triangle is valid if the sum of two sides is greater than the largest of the three sides. 
+        - [validTriangleSides](./code/validTriangleSides.c)
+    
+    - (g) If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
+        - [triangleType](./code/triangleType.c)
+
+    - (h) In a company, worker efficiency is determined on the basis of the time required for a worker to complete a particular job. If the time taken by the worker is between 2 – 3 hours, then the worker is said to be highly efficient. If the time required by the worker is between 3 – 4 hours, then the worker is ordered to improve speed. If the time taken is between 4 – 5 hours, the worker is given training to improve his speed, and if the time taken by the worker is more than 5 hours, then the worker has to leave the company. If the time taken by the worker is input through the keyboard, find the efficiency of the worker. 
+        - [workerEfficiency](./code/workerEfficiency.c)
+    
+    - (i) A university has the following rules for a student to qualify for a degree with A as the main subject and B as the subsidiary subject: <br>
+    (a) He should get 55 percent or more in A and 45 percent or more in B. <br>
+    (b) If he gets than 55 percent in A he should get 55 percent or more in B. However, he should get at least 45 percent in A. <br>
+    (c) If he gets less than 45 percent in B and 65 percent or more in A he is allowed to reappear in an examination in B to qualify. <br>
+    (d) In all other cases he is declared to have failed.<br>
+    Write a program to receive marks in A and B and Output whether the student has passed, failed or is allowed to reappear in B.
+        - [studentResult](./code/studentResult.c) 
+
+    - (j) The policy followed by a company to process customer orders is given by the following rules:<br>
+    (a) If a customer order is less than or equal to that in stock and has credit is OK, supply has requirement.<br>
+    (b) If has credit is not OK do not supply. Send him intimation.<br>
+    (c) If has credit is Ok but the item in stock is less than has order, supply what is in stock. Intimate to him data the balance will be shipped.<br>
+    Write a C program to implement the company policy.
+        - [companyPolicy](./code/companyPolicy.c)
+
+- [G] Conditional operators
+    - (a)
+        - 

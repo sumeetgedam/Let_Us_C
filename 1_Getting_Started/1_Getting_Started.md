@@ -100,7 +100,7 @@ doesn’t change whereas a variable is an entity that may change.
     - Each instruction is written as separate statement , so a complete program is a series of statements
     - the statements should be in a order in which they need to be executed, unleass it needs a deliberate jump / transfer
     - every statement must end with semi-colon `;` , acts as a statement terminator
-- [Program to Calculate Simple Interest](./Program_to_Calculate_Simple_Interest.c)
+- [Program to Calculate Simple Interest](./code/Program_to_Calculate_Simple_Interest.c)
 - Comment about the program should be enclosed within `/* */`
 - Good to add comments wherever required which increases readablity
 - `main` is a name given to a set of statments enclosed with pair of braces, technically speaking main() is a function.
@@ -127,7 +127,7 @@ doesn’t change whereas a variable is an entity that may change.
 - In earlier program we had values of p, n, r set already
 - Its better to make general enough to work for any set of values
 - `scanf()` helps us get values from user / keyboard.
-- [Simple Interest with Input](./Simple_Interest_with_Input.c)
+- [Simple Interest with Input](./code/Simple_Interest_with_Input.c)
 - the ampersand (&) before the variables in the scanf() function is a must. & is an ‘Address of’ operator.
 - It gives the location number used by the variable in memory. 
 - When we say &a, we are telling scanf( ) at which memory location should it store the value supplied by the user from the keyboard. 
@@ -411,28 +411,40 @@ operations
 
 - [H] Write C programs for the following:
     - (a) Ramesh’s basic salary is input through the keyboard. His dearness allowance is 40% of basic salary, and house rent allowance is 20% of basic salary. Write a  program to calculate his gross salary.
-        - [C program](./Ramesh_gross_salary.c)
+        - [C program](./code/Ramesh_gross_salary.c)
+
     - (b) The distance between two cities (in km.) is input through the keyboard. Write a program to convert and print this distance in meters, feet, inches and centimeters.
-        - [C program](./Distance_between_cities.c)
+        - [C program](./code/Distance_between_cities.c)
+
     - (c) If the marks obtained by a student in five different subjects are input through the keyboard, find out the aggregate marks and percentage marks obtained by the student. Assume that the maximum marks that can be obtained by a student in each subject is 100
-        - [C Program](./Student_marks.c)
+        - [C Program](./code/Student_marks.c)
+
     - (d) Temperature of a city in Fahrenheit degrees is input through the keyboard. Write a program to convert this temperature into Centigrade degrees.
-        - [C Program](./Fahrenheit_Degree.c)
+        - [C Program](./code/Fahrenheit_Degree.c)
+
     - (e) The length & breadth of a rectangle and radius of a circle are input through the keyboard. Write a program to calculate the area & perimeter of the rectangle, and the area & circumference of the circle.
-        - [C Program](./Area_Perimeter.c)
+        - [C Program](./code/Area_Perimeter.c)
+
     - (f) Two numbers are input through the keyboard into two locations C and D. Write a program to interchange the contents of C and D.
-        - [C Program](./Interchange_Numbers.c)
+        - [C Program](./code/Interchange_Numbers.c)
+
     - (g) If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits. 
-        - [C Program](./Sum_of_Digits.c)
+        - [C Program](./code/Sum_of_Digits.c)
+
     - (h) If a five-digit number is input through the keyboard, write a program to reverse the number. 
-        - [C Program](./Reverse_Number.c)
+        - [C Program](./code/Reverse_Number.c)
+
     - (i) If a four-digit number is input through the keyboard, write a program to obtain the sum of the first and last digit of this number. 
-        - [C Program](./First_and_Last.c)
+        - [C Program](./code/First_and_Last.c)
+
     - (j) In a town, the percentage of men is 52. The percentage of total literacy is 48. If total percentage of literate men is 35 of  the total population, write a program to find the total number of illiterate men and women if the population of the town is 80,000.
-        - [C Program](./Illiteracy_in_Village.c)
+        - [C Program](./code/Illiteracy_in_Village.c)
+
     - (k) A cashier has currency notes of denominations 10, 50 and 100. If the amount to be withdrawn is input through the keyboard in hundreds, find the total number of currency notes of each denomination the cashier will have to give to the withdrawer. 
-        - [C Program](./Cashier_denomination.c)
+        - [C Program](./code/Cashier_denomination.c)
+
     - (l) If the total selling price of 15 items and the total profit  earned on them is input through the keyboard, write a program to find the cost price of one item. 
-        - [C Program](./Cost_Price.c)
+        - [C Program](./code/Cost_Price.c)
+
     - (m) If a five-digit number is input through the keyboard, write a program to print a new number by adding one to each of its digits. For example if the number that is input is 12391 then the output  should be displayed as 23402. 
-        - [C Program](./Add_One_to_NumDigits.c)
+        - [C Program](./code/Add_One_to_NumDigits.c)
