@@ -424,7 +424,7 @@ the following table:
 
     - (g)
         - else without a if, if is already closed as semicolon is written after the condition
-        
+
     - (h)
         - no errors
 
@@ -485,5 +485,38 @@ the following table:
         - [companyPolicy](./code/companyPolicy.c)
 
 - [G] Conditional operators
+    - (a)
+        - 1
+
+    - (b)
+        - 30
+
+    - (c)
+        - Welcome
+    
+
+- [H]
+    - (a)
+        - : missing in ternary operator
+    
+    - (b)
+        - two variables are mentioned in printf and only one given to replace the value
+    
+    - (c)
+        - no errors
+
+    - (d)
+        - else condition missing in ternary operator
+
+    - (e)
+        - extr semi-colons after printf 
+    
+    - (f)  
+        - incorrect syntax of ternary operator, colon used instead of question mark
+    
+    - (g)
+        - no error
+
+- [I]
     - (a)
         - 
