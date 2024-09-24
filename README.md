@@ -46,3 +46,19 @@ Repo to track learning from book Let us C by Yashwant Kanetka
 - [The Conditional Operators](./2_The_Decision_Control_Structure/2_Decision_Control_Structure.md#the-conditional-operators)
 - Summary
 - [Exercise](./2_The_Decision_Control_Structure/2_Decision_Control_Structure.md#exercise)
+
+[3. The Loop Control Structure](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-loop-control-structure)
+
+- [Loops](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#loops)
+- [The <i><b>while</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-while-loop)
+    - Tips and Traps
+    - More Operators
+- The <i><b>for</b></i> Loop
+    - Nesting of Loops
+    - Multiple Initialisations on the <i><b>for</b></i> Loop
+- The Odd Loop
+- The <i><b>break</b></i> Statement
+- The <i><b>continue</b></i> Statement
+- The <i><b>do-while</b></i> Loop
+- Summary
+- Exercise
