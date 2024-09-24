@@ -518,5 +518,24 @@ the following table:
         - no error
 
 - [I]
-    - (a)
-        - 
+    - (a) 
+        - [minMaxWithOp](./code/minMaxWithOp.c)
+
+    - (b) 
+        - [codePrintWithOp](./code/codePrintWithOp.c)
+    
+    - (c)  
+        - [salaryWithOp](./code/salaryWithOp.c)
+
+- [J]
+
+    - (a) Using conditional operators determine: <br>
+    (1) Whether the character entered through the keyboard is a lower case alphabet or not. <br>
+    (2) Whether a character entered through the keyboard is a special symbol or not. <br>
+        - [guessTheCharacter](./code/guessTheCharacter.c)
+
+    - (b) Write a program using conditional operators to determine whether a year entered through the keyboard is a leap year or not
+        - [leapYearternary](./code/leapYearternary.c)
+
+    - (c) Write a program to find the greatest of the three numbers entered through the keyboard using conditional operators.
+        - [greatestOfThree](./code/greatestOfThree.c)
