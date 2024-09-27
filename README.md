@@ -51,14 +51,14 @@ Repo to track learning from book Let us C by Yashwant Kanetka
 
 - [Loops](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#loops)
 - [The <i><b>while</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-while-loop)
-    - Tips and Traps
-    - More Operators
-- The <i><b>for</b></i> Loop
-    - Nesting of Loops
-    - Multiple Initialisations on the <i><b>for</b></i> Loop
-- The Odd Loop
-- The <i><b>break</b></i> Statement
-- The <i><b>continue</b></i> Statement
-- The <i><b>do-while</b></i> Loop
+    - [Tips and Traps](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#tips-and-traps-)
+    - [More Operators](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#more-operators)
+- [The <i><b>for</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-for-loop)
+    - [Nesting of Loops](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#nesting-of-loops)
+    - [Multiple Initialisations on the <i><b>for</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#multiple-initialisations-in-the-for-loop)
+- [The Odd Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-odd-loop)
+- [The <i><b>break</b></i> Statement](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-break-statement)
+- [The <i><b>continue</b></i> Statement](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-continue)
+- [The <i><b>do-while</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-do-while-loop)
 - Summary
-- Exercise
+- [Exercise](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#exercise)

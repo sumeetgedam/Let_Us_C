@@ -377,5 +377,153 @@ do
 - [A]
     - (a)
         - 0<br> 1<br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br>
+    
     - (b)
         - 1<br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br>
+    
+    - (c)
+        - 0<br> 1<br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br>
+
+    - (d) 
+        - 0
+
+    - (e)
+        - 0
+
+    - (f)
+        -  incorrect syntax
+    
+    - (g)
+        - 2 3 3
+    
+    - (h)
+        - 3 3 1
+    
+    - (i)
+        - (infinite loop) malyalam is a palindrome
+
+    - (j)
+        - (infinite loop) A computer buff!
+
+    - (k)
+        - (infinite loop) 0 1 2 3 ....
+
+    - (l)
+        - 
+    
+    - (m)
+        - (infinite loop) In while loop
+
+    - (n)
+        - (inifinite loop) as character range exceeds at 127 and then it again starts with -128
+
+    - (o)
+        - 3 1<br>1 3<br>0 4<br>-1 5<br>
+    
+    - (p)
+        - 4 0<br>
+        3 1
+    
+
+- [B]
+    - (a) Write a program to calculate overtime pay of 10 employees. Overtime is paid at the rate of Rs. 12.00 per hour for every hour worked above 40 hours. Assume that employees do not work for fractional part of an hour. 
+        - [overtimePay](./code/overtimePay.c)
+    
+    - (b) Write a program to find the factorial value of any number entered through the keboard
+        - [factorial](./code/factorial.c)
+
+    - (c) Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
+        - [power](./code/power.c)
+
+    - (d) Write a program to print all the ASCII values and their equivalent characters using a while loop. The ASCII values vary from 0 to 255. 
+        - [asciiValues](./code/asciiValues.c)
+
+    - (e) Write a program to print out all Armstrong numbers between 1 and 500. If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number. For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+        - [armstrongNumber](./code/armstrongNumbers.c)
+
+    - (f) Write a program for a matchstick game being played between the computer and a user. Your program should ensure that the computer always wins. Rules for the game are as follows:<br>
+        − There are 21 matchsticks.<br>
+        − The computer asks the player to pick 1, 2, 3, or 4
+        matchsticks.<br>
+        − After the person picks, the computer does its
+        picking.<br>
+        − Whoever is forced to pick up the last matchstick
+        loses the game<br>
+        - [matchSticksGame](./code/matchSticksGame.c)
+
+    - (g) Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
+        - [positveNegativeZeros](./code/positiveNegaticeZero.c)
+
+    - (h) Write a program to find the octal equivalent of the entered number
+        - [octalNumber](./code/octalNumber.c)
+
+    - (i) Write a program to find the range of a set of numbers. Range is the difference between the smallest and biggest number in the list
+        - [range](./code/range.c)
+
+### <i><b> for, brak, continue, do-while</b></i>
+
+- [C]
+    - (a)
+        - 
+    
+    - (b)
+        - (infinite loop) as i is not increamented but will print 1
+
+    - (c)
+        - 2<br>5<br>
+
+    - (d)
+        - (infinite loop) A<br>A<br>A......
+
+- [D]
+    - (a)
+        -  the <i><b>initialization</b></i> expression<br> the <i><b>testing</b></i> expression<br> the <i><b>incrementation</b></i> expression
+
+    - (b)
+        - 2. arithmetic, relational, assignment
+
+    - (c)
+        - 2. a for loop
+    
+    - (d)
+        - 3. More than once
+
+    - (e)
+        - 1. Initialization, execution of body, testing
+
+    - (f)
+        - 3. int True = 0, false;<br> while(True)<br>{<br>False = 1;<br>}
+
+    - (g)
+        - 3. continue
+
+- [E]
+    - (a) Write a program to print all prime numbers from 1 to 300
+        - [primeNumbers](./code/primeNumbers.c)
+
+    - (b) Write a program to fill the entire screen with smiling face. The smiling face has an ASCII value 1
+        - [smilingFace]()
+
+    - (c)Write a program to add first seven terms of the following series using a for loop:<br>
+        1/1! + 2/2! + 3/3! + ....
+        - [seriesSum](./code/seriesSum.c)
+    
+    - (d) Write a program to generate all combinations of 1, 2 and 3 using for loop.
+        - [combination123](./code/combination123.c)
+    
+    - (e) According to a study, the approximate level of intelligence of a person can be calculated using the following formula:<br>
+        i = 2 + (y + 0.5x)<br>
+        Write a program, which will produce a table of values of i, y and x, where y varies from 1 to 6, and, for each value of y, x varies from 5.5 to 12.5 in steps of 0.5. 
+        - [intelligenceLevel](./code/intelligenceLevel.c)
+
+    - (f) Write a program to produce the following output:
+        ```
+        A B C D E F G F E D C B A
+        A B C D E F   F E D C B A
+        A B C D E       E D C B A
+        A B C D           D C B A
+        A B C               C B A
+        A B                   B A
+        A                       A
+        ```
+        - []()
