@@ -460,7 +460,7 @@ do
     - (i) Write a program to find the range of a set of numbers. Range is the difference between the smallest and biggest number in the list
         - [range](./code/range.c)
 
-### <i><b> for, brak, continue, do-while</b></i>
+### <i><b> for, break, continue, do-while</b></i>
 
 - [C]
     - (a)
@@ -526,4 +526,42 @@ do
         A B                   B A
         A                       A
         ```
-        - []()
+        - [alphabetPattern](./code/alphabetPattern.c)
+    
+    - (g) Write a program to fill the entire screen with diamond and heart alternatively. The ASCII value for heart is 3 and that of diamond is 4.
+        - [heartAndDiamond](./code/heartAndDiamond.c)
+
+    - (h) Write a program to print the multiplication table of the number entered by the user. The table should get displayed in the following form. 
+        - [multiplicationTable](./code/multiplicationTable.c)
+
+    - (i) Write a program to produce the following output:
+        ```
+            1
+           2 3
+          4 5 6
+         7 8 9 10
+        ```
+        - [numericPattern](./code/numericPattern.c)
+    
+    - (j) Write a program to produce the following output: 
+    ```
+          1
+         1 1
+        1 2 1
+       1 3 3 1
+      1 4 6 4 1
+    ```
+        - [pascalTriangle](./code/pascalTriangle.c)
+    
+    - (k) A machine is purchased which will produce earning of Rs. 1000 per year while it lasts. The machine costs Rs. 6000 and will have a salvage of Rs. 2000 when it is condemned. If 12 percent per annum can be earned on alternate investments what would be the minimum life of the machine to make it a more attractive investment compared to alternative investment?
+        - [lifeOfMachine](./code/lifeOfMachine.c)
+
+    - (l) When interest compounds q times per year at an annual rate of r % for n years, the principle p compounds to an amount a as per the following formula <br>
+    a = p ( 1 + r / q ) nq<br>
+    Write a program to read 10 sets of p, r, n & q and calculate the corresponding as. 
+        - [comoundedAmount](./code/amount.c)
+
+    - (m) The natural logarithm can be approximated by the following series.<br>
+    ![series](./asset/series.png)
+    If x is input through the keyboard, write a program to calculate the sum of first seven terms of this series.
+        - [logarithmicSeries](./code/logarithmicSeries.c)
