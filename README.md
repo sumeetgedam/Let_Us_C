@@ -62,3 +62,16 @@ Repo to track learning from book Let us C by Yashwant Kanetka
 - [The <i><b>do-while</b></i> Loop](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#the-do-while-loop)
 - Summary
 - [Exercise](./3_The_Loop_Control_Structure/3_The_Loop_Control_Structure.md#exercise)
+
+
+[4. The Case Control Structure](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md)
+- [Decisions Using <i><b>switch</i></b>](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#decision-using-switch)
+    - [The Tips and Traps](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#the-tips-and-traps)
+- [<i><b>switch</b></i> Versus <i><b>if-else</i></b> Ladder](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#the-case-control-structure)
+- [The <i><b>goto</i></b> Keyword](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#the-goto-keyword)
+- Summary
+- [Exercise](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#exercise)
+
+
+
+

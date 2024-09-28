@@ -31,7 +31,7 @@ main()
     }
 }
 ```
-- the flowchat shows general operations of while loop  :
+- the flowchat shows general operations of while loop  :<br>
 ![whileLoopFlowchat](./asset/whileLoopFlowchat.png)
 
 ### Tips and Traps : 
