@@ -73,5 +73,25 @@ Repo to track learning from book Let us C by Yashwant Kanetka
 - [Exercise](./4_The_Case_Control_Structure/4_The_Case_Control_Structure.md#exercise)
 
 
+[5. Functions & Pointers ](./5_Functions_and_Pointers/5_Functions_and_Pointers.md)
+
+- [What is a Function](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#what-is-a-function)
+    - [Why Use Functions](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#why-use-funtions)
+- [Passing Values between Functions](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#passing-values-between-functions)
+- [Scope Rule of Functions](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#scope-rule-of-functions)
+- [Calling Convention](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#calling-convention)
+- [One Dicey Issue](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#one-dicey-issue)
+- [Advanced Features of Functions](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#advanced-features-of-functions)
+    - [Function Declaration and Prototypes](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#function-declaration-and-prototypes)
+    - [Call by Value and Call by Reference](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#call-by-value-and-call-by-reference)
+    - [An Introduction to Pointers](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#an-introduction-to-pointers)
+    -[ Pointer Notation](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#pointer-notation)
+    - [Back to Function Calls](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#back-to-function-calls)
+    - [Conclusion](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#conclusions)
+    - [Recursion](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#recursion)
+    - [Recursion and Stack](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#recursion-and-stack)
+- [Adding Functions to the Library](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#adding-functions-to-the-library)
+- Summary
+- [Exercise](./5_Functions_and_Pointers/5_Functions_and_Pointers.md#exercise)
 
 
