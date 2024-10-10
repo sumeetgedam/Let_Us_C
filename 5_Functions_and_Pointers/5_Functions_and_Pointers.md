@@ -563,4 +563,27 @@ error while writing recursive functions
     - (e) Write a recursive function to obtain the running sum of first 25 natural numbers.
         - [sumOfNatural](./code/sumOfNatural.c)
 
-    - (f) Write a C function to evaluate the series to five significant digits<br> 
+    - (f) Write a C function to evaluate the series to five significant digits<br>sin(x) = x − (x3 / 3!) + (x5 / 5!) − (x7 / 7!) + ...<br>to five significant digits.
+        - [sinSeries](./code/sinSeries.c)
+
+    - (g) Given three variables x, y, z write a function to circularly shift their values to right. In other words if x = 5, y = 8, z = 10 after circular shift y = 5, z = 8, x =10 after circular shift y = 5, z = 8 and x = 10. Call the function with variables a, b, c to circularly shift values. 
+        - [circularShift](./code/circularShift.c)
+
+    - (h) Write a function to find the binary equivalent of a given decimal integer and display it.
+        - [binaryEquivalent](./code/binaryEquivalent.c)
+
+    - (i) If the lengths of the sides of a triangle are denoted by a, b, and c, then area of triangle is given by <br>area = S(S − a)(S − b)(S − c)<br>where, S = ( a + b + c ) / 2 
+
+        - [areaOfTriangle](./code/areaOfTriangle.c)
+
+    - (j) Write a function to compute the distance between two points and use it to develop another function that will compute the area of the triangle whose vertices are A(x1, y1), B(x2, y2), and C(x3, y3). Use these functions to develop a function which returns a value 1 if the point (x, y) lines inside the triangle ABC, otherwise a value 0. 
+
+        - [operationOnTriangle](./code/operationOnTriangle.c)
+
+    - (k) Write a function to compute the greatest common divisor given by Euclid’s algorithm, exemplified for J = 1980, K = 1617 as follows:<br>
+    1980 / 1617 = 1 1980 – 1 * 1617 = 363<br>
+    1617 / 363 = 4 1617 – 4 * 363 = 165<br>
+    363 / 165 = 2 363 – 2 * 165 = 33<br>
+    5 / 33 = 5 165 – 5 * 33 = 0<br>
+    Thus, the greatest common divisor is 33<br>
+        - [Euclid's Algorithm](./code/EuclidsAlgorithm.c)
